@@ -21,7 +21,7 @@ class CalculatorController {
 	}
 	@RequestMapping("/sub")
 
-	String sum(@RequestParam("a") Integer a,
+	String sub(@RequestParam("a") Integer a,
 
 	@RequestParam("b") Integer b) {
 
