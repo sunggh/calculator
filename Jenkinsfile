@@ -41,7 +41,7 @@ stages {
 	}
 	stage ('Packaging'){
 		steps {
-			sh "./gradlew build'
+			sh './gradlew build'
 		}
 
 	}
