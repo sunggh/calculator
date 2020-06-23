@@ -5,7 +5,7 @@ agent any
 stages {
 	stage ('Chekc out'){
 		steps {
-			git url: 'https://github.com/juht/calculator.git'
+			git branch : 'uat', url: 'https://github.com/juht/calculator.git'
 		}
 	}
 	stage ('Compile') {
